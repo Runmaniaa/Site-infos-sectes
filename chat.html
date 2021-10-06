@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Secret chat</title>
+        <link rel="stylesheet" type="text/css" href="stylechat.css">
+		<link rel="icon" type="image/png" href="img/ssamarshpa.jpg">
+		<script>
+			function message() {
+				var texte = prompt("Entrez votre message");
+				document.getElementById("yourtext").innerHTML = "<strong>Vous</strong> : " + texte;
+				document.getElementById("mastertext").innerHTML = "<strong>Maître</strong> : QUI EST TU !";
+				var divi = document.getElementById("chata");
+				var btn = document.getElementById("christophette");
+				var rmv = divi.removeChild(btn);
+			}
+		</script>
+    </head>
+
+    <body>
+        <div id="chata">
+            <p><i>14 Janvier</i></p>
+            <p><br><br><strong>Maître</strong> : Bonjour a vous, avez vous bel et bien mis hors d'état de nuire ce maudit journaliste !</p>
+            <p><br><br><strong>Contremaître</strong> : J'ai demandé au Disciple Cookie et au Dieu Cookie de s'en charger Maîtres.</p>
+            <p><br><br><strong>Maître</strong> : Bien.</p>
+            <p><br><br><i>16 Janvier</i></p>
+            <p><br><br><strong>Dieu Cookie</strong> : Le Disciple Cookie m'as prévenu qu'il as effectué une coupure de courant dans l'immeuble du journaliste,<br>il devrait pouvoir l'éliminer d'ici demain.</p>
+            <p><br><br><strong>Maître</strong> : Bien, tout se déroule comme prévu !</p>
+            <p><br><br><i>17 janvier</i></p>
+            <p><br><br><strong>Disciple Cookie</strong> : J'ai éliminé le journaliste Maître.</p>
+            <p><br><br><strong>Maître</strong> : Bien Disciple Cookie.</p>
+			<p><br></p>
+			<input type="button" value="Entrez votre message" onclick="message()" id="christophette">
+            <p id="yourtext"><br><br></p>
+			<p><br></p>
+			<p id="mastertext"><br><br></p>
+        </div>
+    </body>
+</html>

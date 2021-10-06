@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#chata {
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    color: white;
+}

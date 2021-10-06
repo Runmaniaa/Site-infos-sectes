@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #8f8965;
+}
+
+#fondmenu {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(#d9b30b, #fad787);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),
+			    0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,
+			    0px -3px 0px 1px rgba(0, 0, 0, 0.1) inse
+}
+
+#menu  {
+    font-family: 'Trebuchet MS';
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#menu li {
+    display: table-cell;
+    width: 180px;
+    transition: 1s;
+}
+
+#menu li:hover {
+    width: 190px;
+    transition: 1s;
+
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    transition: text-shadow, color 1s;
+    position: relative;
+}
+
+#menu a:hover {
+    color: black;
+    text-shadow: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    transition: text-shadow, color 1s;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+#menu a::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    transition: 1s;
+    position: absolute;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid rgba(0, 0, 0, 0.2);
+    left: 50%;
+    bottom: 5px;
+}
+
+#menu a:hover::before{
+	border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	transition:1s
+}
+
+#h1farfelu {
+    font-family: monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #492118;
+    text-align: center;
+}
+
+#ouii {
+    position: absolute;
+    height: max-content;
+    border: 5px solid black;
+    box-shadow: 8px 8px 10px black;
+}
+
+#bonjoir {
+    position: absolute;
+    left: 46%;
+    font-size: 24px;
+    color: #492118;
+}
+
+#andcamp {
+    text-decoration: none;
+    color: black;
+}
+
+#andcamp:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+#precision {
+    text-decoration: none;
+    color: #492118;
+}
+
+#man {
+    color: #492118;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.cook {
+    color: #492118;
+}
+
+#yessau {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: monospace;
+    font-size: 56px;
+}
+
+#tututu {
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+#ayfon {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
